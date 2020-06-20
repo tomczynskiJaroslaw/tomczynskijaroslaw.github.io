@@ -62,6 +62,10 @@
             position: relative;
         }
         
+        .images {
+            width: 110px;
+        }
+        
         .page {
             display: block;
             height: 297mm;
@@ -182,7 +186,7 @@
 <body>
     <div class="page">
         <div class="left">
-            <div style="position: relative; display: block; height: 650px;">
+            <div style="position: relative; display: block; height: 450px;">
                 <div class="image" style="transform: scale(2,2);">
                     <img style="position: absolute;
                     z-index: 2; 
@@ -209,7 +213,7 @@
                     width: auto; 
                     transform: scale(-1,-1);" src="ja.png" /> -->
                 </div>
-                <div style="position: absolute; z-index: 2; top: 450px; margin: 5px;">
+                <div style="position: absolute; z-index: 2; top: 300px; margin: 5px;">
                     <span style="text-decoration: underline; font-size: 20pt;"> Dane osobowe </span>
                     <div class="conntact">
                         <span>Jarosław Tomczyński</span>
@@ -238,14 +242,15 @@
                     </div>
                 </div>
                 <div class="progress-bar">
-                    <span> UNITY </span>
+                    <span> SQL </span>
                     <div class="fill-dots">
-                        •••
+                        ••••
                     </div>
                     <div class="empty-dots">
                         •••••••••
                     </div>
                 </div>
+
 
                 <div class="progress-bar">
                     <span> GIT </span>
@@ -274,7 +279,17 @@
                         •••••••••
                     </div>
                 </div>
-                <br><br><br><br><br>
+                <div class="progress-bar">
+                    <span> UNITY </span>
+                    <div class="fill-dots">
+                        •••
+                    </div>
+                    <div class="empty-dots">
+                        •••••••••
+                    </div>
+                </div>
+                <img class="images" src="ludo.jpg" />
+                <img class="images" src="ticTacToe.jpg" />
 
             </div>
         </div>
@@ -375,7 +390,7 @@
                     JAVA
                 </div>
                 <p class="description">
-                    ◦ typy danych, metody, konstruktory, pakiety ◦ operatory instrukcje ◦ varargs ◦ tablice ◦ pętle ◦ OOP (klasa, obiekt, stan, zachowanie) ◦ dziedziczenie, kompozycja, polimorfizm ◦ klasy i metody abstrakcyjne, interfejsy, enum ◦ pola metody i klasy statyczne
+                    typy danych, metody, konstruktory, pakiety ◦ operatory instrukcje ◦ varargs ◦ tablice ◦ pętle ◦ OOP (klasa, obiekt, stan, zachowanie) ◦ dziedziczenie, kompozycja, polimorfizm ◦ klasy i metody abstrakcyjne, interfejsy, enum ◦ pola metody i klasy statyczne
                     ◦ adnotacje ◦ wyjątki ◦ klasa String, wyrażenia regularne ◦ kolekcje ◦ typy generyczne ◦ I/O, new I/O ◦ programowanie współbieżne i równoległe ◦ programowanie funkcyjne: Optonal, Lambda exprassions, Streams ◦ Swing ◦ Maven ◦ debugowanie
                     ◦ posługiwanie się Loggeram ◦ pisanie testów jednostkowych ◦ dobre praktyki programowania
                 </p>
@@ -385,13 +400,17 @@
                 <p class="description">
                     wskaźniki ◦ klasy domieszki
                 </p>
-
+                <div class="header">
+                    SQL
+                </div>
+                <p class="description">
+                    select ◦ from ◦ left join ◦ where ◦ order by ◦ heving ◦ sum ◦ max
+                </p>
                 <div class="header">
                     GIT
                 </div>
                 <p class="description">
-                    add -all ◦ commit ◦ push ◦ pull ◦ .gitignore ◦ log ◦ diff ◦ checkout -b ◦ HEAD ◦ marge ◦ github ◦
-
+                    add -all ◦ commit ◦ push ◦ pull ◦ .gitignore ◦ log ◦ diff ◦ checkout -b ◦ HEAD ◦ marge ◦ github
                 </p>
                 <div class="header">
                     HTML/CSS
