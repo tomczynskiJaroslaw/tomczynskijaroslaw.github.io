@@ -58,12 +58,15 @@
         
         .image {
             float: right;
-            margin: 10%;
+            /* margin: 10%; */
             position: relative;
         }
         
         .images {
-            width: 110px;
+            width: 90px;
+            margin-top: -20px;
+            /* top: -30px; */
+            margin-bottom: 30px;
         }
         
         .page {
@@ -186,22 +189,27 @@
 <body>
     <div class="page">
         <div class="left">
-            <div style="position: relative; display: block; height: 490px;">
+            <div>
+
+            </div>
+            <div style="position: relative; display: block; height: 350px;">
+                <!-- <img style="position: absolute; z-index: 0; width: 100%;" src="american flag.jpg" />
+                <span style="position: absolute;z-index: 0;" class="conntact">Angielski na poziomie rozumienia dokumentacji technicznej </span> -->
                 <div class="image" style="transform: scale(2,2);">
                     <img style="position: absolute;
                     z-index: 2; 
-                    top: 0; 
+                    top: 0px; 
                     right: 0; 
-                    height: 150px; 
+                    height: 130px; 
                     width: auto; 
                     transform: scaleX(-1);" src="ja.png" />
-                    <div style="width: 200px;
+                    <!-- <div style="width: 200px;
                     height: 200px; 
                     position: absolute; 
                     z-index: 1; 
                     top: 150px;
                     right: 0; 
-                    background: linear-gradient(rgba(236, 247, 255,0)  0%,rgba(236, 247, 255,255) 40%);"></div>
+                    background: linear-gradient(rgba(236, 247, 255,0)  0%,rgba(236, 247, 255,255) 40%);"></div> -->
                     <!-- <svg width="100" height="100" style="z-index: 4;">
                         <circle cx="50" cy="50" r="40" stroke=rgba(255,0,0,100) stroke-width="4" fill="yellow" />
                      </svg>  -->
@@ -213,7 +221,7 @@
                     width: auto; 
                     transform: scale(-1,-1);" src="ja.png" /> -->
                 </div>
-                <div style="position: absolute; z-index: 2; top: 330px; margin: 5px;">
+                <div style="position: absolute; z-index: 2; top: 210px; margin: 5px;">
                     <span style="text-decoration: underline; font-size: 20pt;"> Dane osobowe </span>
                     <div class="conntact">
                         <span>Jarosław Tomczyński</span>
@@ -270,6 +278,7 @@
                         •••••••••
                     </div>
                 </div>
+
                 <div class="progress-bar">
                     <span> SPRING </span>
                     <div class="fill-dots">
@@ -279,6 +288,7 @@
                         •••••••••
                     </div>
                 </div>
+
                 <div class="progress-bar">
                     <span> UNITY </span>
                     <div class="fill-dots">
@@ -290,6 +300,20 @@
                 </div>
                 <img class="images" src="ludo.jpg" />
                 <img class="images" src="ticTacToe.jpg" />
+
+                <div class="progress-bar">
+                    <span> GRAFIKA </span>
+                    <div class="fill-dots">
+                        ••
+                    </div>
+                    <div class="empty-dots">
+                        •••••••••
+                    </div>
+                </div>
+                <img class="images" src="pumpkin.jpg" />
+                <img class="images" src="teeth.jpg" />
+                <img class="images" src="garden.jpg" />
+                <img class="images" src="plane.jpg" />
 
             </div>
         </div>
@@ -346,7 +370,7 @@
                     Międzynarodowa szkoła matematyki 2+2
                 </div>
                 <p class="description">
-                    Prowadziłem zajęcia z programowania dla dzieci w wieku 10-15lat. Głównie w scratch, ale z sukcesami wprowadzałem też JAVA-ę.
+                    Prowadziłem zajęcia z programowania i matematyki dla dzieci w wieku 10-15lat. Głównie w scratch, ale z sukcesami wprowadzałem też JAVA-ę.
                     <div class="links">
                         <a href="http://www.2plus2.edu.pl/">
                                     http://www.2plus2.edu.pl/</a>
@@ -377,7 +401,7 @@
                     </ul>
                     <div class="links">
                         <a href="https://www.e-korepetycje.net/jajojejeje">
-                                        https://www.e-korepetycje.net/</a> - Jarosław Tomczyński
+                                        https://www.e-korepetycje.net/</a> - Tomczyński
                     </div>
                 </p>
             </div>
@@ -390,9 +414,9 @@
                     JAVA
                 </div>
                 <p class="description">
-                    typy danych, metody, konstruktory, pakiety ◦ operatory instrukcje ◦ varargs ◦ tablice ◦ pętle ◦ OOP (klasa, obiekt, stan, zachowanie) ◦ dziedziczenie, kompozycja, polimorfizm ◦ klasy i metody abstrakcyjne, interfejsy, enum ◦ pola metody i klasy statyczne
-                    ◦ adnotacje ◦ wyjątki ◦ klasa String, wyrażenia regularne ◦ kolekcje ◦ typy generyczne ◦ I/O, new I/O ◦ programowanie współbieżne i równoległe ◦ programowanie funkcyjne: Optonal, Lambda exprassions, Streams ◦ Swing ◦ Maven ◦ debugowanie
-                    ◦ posługiwanie się Loggeram ◦ pisanie testów jednostkowych ◦ dobre praktyki programowania
+                    typy danych, metody, konstruktory, pakiety ◦ operatory ◦ instrukcje ◦ varargs ◦ tablice ◦ pętle ◦ OOP (klasa, obiekt, stan, zachowanie) ◦ dziedziczenie, kompozycja, polimorfizm ◦ klasy i metody abstrakcyjne, interfejsy, enum ◦ pola metody i klasy statyczne
+                    ◦ adnotacje ◦ wyjątki ◦ klasa String ◦ kolekcje ◦ typy generyczne ◦ programowanie współbieżne i równoległe ◦ programowanie funkcyjne: Optonal, Lambda expressions, Streams ◦ Swing ◦ javaFX ◦ Maven ◦ debugowanie ◦ posługiwanie się Loggerem
+                    ◦ pisanie testów jednostkowych ◦ dobre praktyki programowania
                 </p>
                 <div class="header">
                     C++
@@ -404,7 +428,7 @@
                     SQL
                 </div>
                 <p class="description">
-                    select ◦ from ◦ left join ◦ where ◦ order by ◦ heving ◦ sum ◦ max
+                    select ◦ from ◦ left join, right, inner, outer ◦ where ◦ order by ◦ heving ◦ sum ◦ max
                 </p>
                 <div class="header">
                     GIT
@@ -423,6 +447,12 @@
                 </div>
                 <p class="description">
                     hibernate ◦ thymelife
+                </p>
+                <div class="header">
+                    <img style=" width: 20px;" src="american flag.jpg" />ANGIELSKI<img style=" width: 20px;" src="american flag.jpg" />
+                </div>
+                <p class="description">
+                    na poziomie rozumienia dokumentacji technicznej
                 </p>
 
             </div>
@@ -466,8 +496,8 @@
             <!-- <div class="text-align: center;margin: auto"> -->
             <a class="link" href="https://github.com/tomczynskiJaroslaw">github.com/tomczynskiJaroslaw</a>
             <!-- </div> -->
-
-
+            <!-- HOBBY: Grafika komputerowa <img style="width: 50px" src="pumpkin.jpg" /> -->
+            <span style="margin: 50px;"></span>
 
             <footer>
                 Wyrażam zgodę na przetwarzanie danych osobowych zawartych w niniejszym dokumencie do realizacji procesu rekrutacji zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu
